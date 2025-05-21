@@ -2,30 +2,6 @@
 
 A command-line tool for exploring and enumerating Facebook Graph API endpoints with support for all token types. This tool automatically discovers available endpoints and fetches data. While it is possible to query the GET permissions endpoint, this endpoint is authenticated and it requires a Facebook developer account. This tool avoids it by bruteforcing the endpoints. Developed by the [Digilol](https://www.digilol.net) security team to use during penetration tests.
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Token Types](#token-types)
-- [Command-Line Options](#command-line-options)
-- [Examples](#examples)
-- [Output](#output)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-- **Multiple Token Types**: Supports App, User, Page, and System User access tokens
-- **Automatic Discovery**: Recursively explores Graph API endpoints and their connections
-- **OAuth Flow**: Built-in OAuth server for User access token authentication
-- **Comprehensive Reporting**: Detailed status table showing which endpoints work and which don't
-- **Response Saving**: Option to save all API responses to JSON files
-- **Parameter Handling**: Automatically provides required parameters for specific endpoints
-- **Rate Limiting**: Built-in delays to respect Facebook's rate limits
-- **Verbose Mode**: Optional detailed output for debugging
-
 ## Installation
 
 ```
